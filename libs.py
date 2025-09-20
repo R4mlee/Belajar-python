@@ -7,3 +7,16 @@ def welcome_message():
     print(line)
     print(f"- {desktop} -")
     print(line)
+    print("*^____^* : Selamat Datang...")
+    
+def exit_program():
+    line = "-" * (len("＞︿＜ : Sampai jumpa lagi") + 3)
+    print(line)
+    print(f"＞︿＜ : Sampai jumpa lagi")
+    print(line)
+    exit()
+    
+if __name__ == "__main__":
+    welcome_message()
+    exit_program()
+    
