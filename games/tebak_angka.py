@@ -1,5 +1,6 @@
 import random
 
+print("")
 mysterious_number = random.randint(1, 200)
 
 answer = int(input("Coba tebak angka misterinya: "))
